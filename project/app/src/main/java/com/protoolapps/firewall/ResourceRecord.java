@@ -1,0 +1,47 @@
+package com.protoolapps.firewall;
+
+/*
+    This file is part of ProtWall.
+
+    ProtWall is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ProtWall is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ProtWall.  If not, see <http://www.gnu.org/licenses/>.
+
+
+*/
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class ResourceRecord {
+    public long Time;
+    public String QName;
+    public String AName;
+    public String Resource;
+    public int TTL;
+
+    private static DateFormat formatter = SimpleDateFormat.getDateTimeInstance();
+
+    public ResourceRecord() {
+    }
+
+    @Override
+    public String toString() {
+        return formatter.format(new Date(Time).getTime()) +
+                " Q " + QName +
+                " A " + AName +
+                " R " + Resource +
+                " TTL " + TTL +
+                " " + formatter.format(new Date(Time + TTL * 1000L).getTime());
+    }
+}

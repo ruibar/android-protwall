@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "297210119425",
+    "project_id": "firebase-protwall"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297210119425:android:d8c8af9dbdbb2420",
+        "android_client_info": {
+          "package_name": "com.protoolapps.firewall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC502qaoHvtS8BcEzxNzApP-2kGSNL5yJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-56279336-15"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

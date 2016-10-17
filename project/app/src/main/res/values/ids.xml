@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id" translatable="false">198159427279619</string>
+    <string name="facebook_app_url" translatable="false">https://fb.me/205590099869885</string>
+
+
+    <string name="admob_banner_id" translatable="false">ca-app-pub-9274167216302943/3877890911</string>
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-9274167216302943/5354624110</string>
+    <string name="admob_native_id" translatable="false">ca-app-pub-9274167216302943/6831357316</string>
+    <string name="admob_test_device_id" translatable="false">BABB35E2F44BD42D7B74D736D34239F2</string>
+
+
+    <!--<string name="ad_app_id" translatable="false">ca-app-pub-xxxx</string>-->
+    <!--<string name="ad_banner_unit_id" translatable="false">ca-app-pub-xxxxx</string>-->
+    <!--<string name="ad_test_device_id" translatable="false">B23E5E89C89F87C06C33861503174DFC</string>-->
+    <!--<string name="fingerprint" translatable="false">ef46f813d2c8a064d72c936b9b96d1cccc989378</string>-->
+
+</resources>
